@@ -25,7 +25,6 @@ $( document ).ready(function() {
       var number1 = parseInt($("#input1").val());
       var number2 = parseInt($("#input2").val());
       var result = "";
-
       if (buttonName==="add") {
         result = add(number1, number2)
       } else if (buttonName==="subtract") {
@@ -35,7 +34,7 @@ $( document ).ready(function() {
       } else {
         result = divide(number1, number2)
       }
-
+      $(".well").show();
       $(".output").text(result);
   });
 });

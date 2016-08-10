@@ -1,7 +1,13 @@
 .container {
-  width: 50%;
+  width: 40%;
 }
 
 .btn {
+  text-align: center;
+}
+
+.well {
+  margin-top: 1em;
+  display: none;
   text-align: center;
 }
